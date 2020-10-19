@@ -31,7 +31,7 @@ end
 
 private
 def school_class_params
-  params.require(:schoolclass).permit(:title,:room_number)
+  params.require(:schoolclass).permit(:title, :room_number)
 end
 
 end
